@@ -6,8 +6,9 @@
  * followed by a new line.
  * You can only use the 'putchar' to print to the console
  * You can only use 'putchar' twice
- * Return
- */
+ *
+ * Return: 0
+ */ 
 
 int main(void)
 {

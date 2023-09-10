@@ -8,7 +8,7 @@
  * You can only use 'putchar' twice
  *
  * Return: 0
- */ 
+ */
 
 int main(void)
 {

@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - A loop of base 10
+ * main - main function of loop.
  *
- * Return 0 when successful
+ * Return: 0 always when successful
  */
 
 int main(void)

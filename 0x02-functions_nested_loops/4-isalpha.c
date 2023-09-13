@@ -4,7 +4,7 @@
  * _isalpha - function that checks for alphabets
  * @c: parameter function
  *
- * Return 1 and 0
+ * Return: 1 and 0
  */
 
 int _isalpha(int c)

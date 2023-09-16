@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - main block
- * Description A Fizz-Buzz test
+ * main - main function
  *
  * Return: 0
  */

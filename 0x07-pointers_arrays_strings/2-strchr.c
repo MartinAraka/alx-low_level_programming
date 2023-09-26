@@ -6,7 +6,7 @@
  * @s: string
  * @c: character
  *
- * Return: pointer to location or 'NULL' if failure
+ * Return:'NULL' if failure
  */
 
 char *_strchr(char *s, char c)
@@ -20,5 +20,5 @@ char *_strchr(char *s, char c)
 		}
 		s++;
 	}
-	return (NULL);
+	return ('\0');
 }

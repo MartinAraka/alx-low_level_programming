@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 #include <ctype.h>
 
 /**
@@ -15,12 +14,13 @@ int main(int argc, char *argv[])
 {
 	int i, j, sum;
 
+	(void) argv;
 	sum = 0;
 	if (argc != 1)
 	{
 		for (i = 0; i < argc; i++)
 		{
-			for (j = 0; j < (int)strlen(argv[i]); j++)
+			for (j = 0; argv[i][j] != '\0'; j++)
 			{
 				if (!isdigit(argv[i][j]))
 				{

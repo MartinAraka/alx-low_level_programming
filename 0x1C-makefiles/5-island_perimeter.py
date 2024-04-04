@@ -4,6 +4,7 @@
 Module contains a func that calculates perimeter of an island
 """
 
+
 def island_perimeter(grid) -> int:
     """
     Returns the perimeter of an island
